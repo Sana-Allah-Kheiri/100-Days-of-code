@@ -1,4 +1,10 @@
 # By Sasan Ace on https://github.com/Sana-Allah-Kheiri
+""""
+In Day 1 Project (that you can skip due to its simplicity), I built a simple console-interface script to generate two music band names by concatenating user's city of birth
+& pet name. I don't recommend writing anything manually on mentor's so-called Cornell-based system which a waste of time in real-world practice (unlike in 
+matrix-base environments like college or university professor forces you to write code on paper!) 
+The only new tip I learned is that we can nest input() in print() function!
+"""
 # In this project as Dr Yu told us we are going to generate a name based on pet & city names
 retry = 1;
 while (retry==1):
