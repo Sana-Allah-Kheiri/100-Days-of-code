@@ -3,7 +3,7 @@
 import sys
 import time
 import random
-retry = 1;
+retry = 1
 
 def exitF(): # To exit the app
     print("Exiting app after 5 seconds...");
@@ -150,7 +150,7 @@ def hintPrint (guessedletter, targetWord, n, hintSequence):
     for j in range(n):
         if (targetWord[j] == guessedletter):
             hintSequence[j] = guessedletter
-    finalHint = " ".join(hintSequence) #converting list to string
+    finalHint = "".join(hintSequence) #converting list to string
     return finalHint
 
     
@@ -180,13 +180,16 @@ while(retry == 1): #game retry
         print(f" Life = {score} out of 100")
         printHangASCII(attemptNo)
         guessedLetter = input(" Guess a letter : ");
+        guessedLetter = guessedLetter.lower() #Input Control
         if (CheckGuess(guessedLetter, targetWord)):
             hintPhrase = hintPrint(guessedLetter, targetWord, n, hintSequence) 
             print(hintPhrase)
+            if (targetWord == hintPhrase):
+                    print(f"Congrats you won! You score is {score}")
+                    break;
         else:
             attemptNo +=1;
 
-    printHangASCII(attemptNo)
-    if (targetWord == hintPhrase):
-        print(f"Congrats you won! You score is {score}")
+    if(attemptNo ==6 ):
+        printHangASCII(attemptNo);
     retryF();
