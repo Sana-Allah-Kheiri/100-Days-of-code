@@ -21,7 +21,8 @@ The contents may change as I continue the course and improve my projects.
 
 ## Skills I’m Practicing
 
-- Python programming
+- Advanced Python programming to become senior Django engineer which is a first step to become Machine Learning Engineer
+- Data structures and algorithms
 - Problem-solving and writing readable code
 - Git basics, including commits and pushing changes
 - Organizing and documenting projects with GitHub
