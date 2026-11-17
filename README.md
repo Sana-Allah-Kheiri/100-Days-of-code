@@ -6,7 +6,8 @@ I’m using this repository to learn Python and Git side by side: building proje
 
 ## About the Course
 
-The bootcamp is a hands-on introduction to Python programming. Over the course, I’m working through lessons and exercises designed to build practical coding skills through regular practice and projects.
+The [100 Days of Code: The Complete Python Pro Bootcamp]( https://www.udemy.com/course/100-days-of-code/ ), taught by Dr. Angela Yu, is a hands-on introduction to Python programming. I’m working through its lessons and projects to build practical coding skills through regular practice.
+
 
 ## What You’ll Find Here
 
@@ -28,3 +29,9 @@ The contents may change as I continue the course and improve my projects.
 ## Repository Structure
 
 Projects and exercises are organized in the folders and files
+
+
+
+## Python Mentoring
+
+Students interested in Python mentoring can contact me on [Telegram]( https://t.me/sasanace ).
